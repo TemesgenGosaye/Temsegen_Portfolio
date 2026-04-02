@@ -19,6 +19,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/dart.svg",
       },
+      {
+        title: "Python",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/python.svg",
+      },
     ],
   },
   {
@@ -54,6 +59,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/redux.svg",
       },
+      {
+        title: "Tailwind CSS",
+        level: SkillLevel.Expert,
+        icon: "/skills/tailwind.svg",
+      },
     ],
   },
   {
@@ -68,11 +78,6 @@ const skills: ISkillListItem[] = [
         title: "Express.js",
         level: SkillLevel.Expert,
         icon: "/skills/express.svg",
-      },
-      {
-        title: "Socket.io",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
       },
       // {
       //   title: "Nest.js",
@@ -93,6 +98,66 @@ const skills: ISkillListItem[] = [
         title: "GetX",
         level: SkillLevel.Expert,
         icon: "/skills/getx.png",
+      },
+    ],
+  },
+  {
+    title: "AI & Machine Learning",
+    items: [
+      {
+        title: "ChatGPT API",
+        level: SkillLevel.Expert,
+        icon: "/skills/openai.svg",
+      },
+      {
+        title: "OpenAI Models",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/openai.svg",
+      },
+    ],
+  },
+  {
+    title: "UI/UX & Design",
+    items: [
+      {
+        title: "Figma",
+        level: SkillLevel.Intermediate,
+        icon: "faFigma",
+      },
+      {
+        title: "Adobe XD",
+        level: SkillLevel.Beginner,
+        icon: "faAdobe",
+      },
+    ],
+  },
+  {
+    title: "Graphics & Multimedia",
+    items: [
+      {
+        title: "Adobe Photoshop",
+        level: SkillLevel.Intermediate,
+        icon: "faAdobe",
+      },
+      {
+        title: "Adobe Illustrator",
+        level: SkillLevel.Beginner,
+        icon: "faAdobe",
+      },
+      {
+        title: "Canva",
+        level: SkillLevel.Expert,
+        icon: "/skills/canva.svg",
+      },
+    ],
+  },
+  {
+    title: "Microsoft Office Suite",
+    items: [
+      {
+        title: "Microsoft Office Suite",
+        level: SkillLevel.Expert,
+        icon: "/skills/microsoft-office.svg",
       },
     ],
   },
@@ -122,22 +187,22 @@ const skills: ISkillListItem[] = [
       {
         title: "Docker",
         level: SkillLevel.Beginner,
-        icon: "/skills/docker.png",
+        icon: "faDocker",
       },
       {
         title: "AWS",
         level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
+        icon: "faAws",
       },
       {
         title: "Git",
         level: SkillLevel.Expert,
-        icon: "/skills/git.svg",
+        icon: "faGit",
       },
       {
         title: "GitHub",
         level: SkillLevel.Expert,
-        icon: "/skills/github.svg",
+        icon: "faGithub",
       },
     ],
   },
@@ -152,7 +217,7 @@ const skills: ISkillListItem[] = [
       {
         title: "Ubuntu",
         level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
+        icon: "faUbuntu",
       },
     ],
   },
@@ -160,19 +225,14 @@ const skills: ISkillListItem[] = [
     title: "Nontechnical Skills",
     items: [
       {
-        title: "Problem Solving",
+        title: "Communication",
         level: SkillLevel.Expert,
-        icon: "/images/logical-thinking.png",
+        icon: "faComments",
       },
       {
-        title: "Collaboration",
-        level: SkillLevel.Expert,
-        icon: "/images/collaboration.png",
-      },
-      {
-        title: "Analytical Skills",
-        level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
+        title: "Project Management",
+        level: SkillLevel.Intermediate,
+        icon: "faChartGantt",
       },
     ],
   },

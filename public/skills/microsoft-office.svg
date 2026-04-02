@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="office-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E83C3D;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ED7132;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8B500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Microsoft Office Logo -->
+  <rect x="2" y="2" width="20" height="20" rx="2" ry="2" fill="#FFFFFF" stroke="#E1E1E1" stroke-width="0.5"/>
+  
+  <!-- Office Logo Elements -->
+  <rect x="4" y="4" width="7" height="7" fill="#F25022"/>
+  <rect x="13" y="4" width="7" height="7" fill="#7FBA00"/>
+  <rect x="4" y="13" width="7" height="7" fill="#00A4EF"/>
+  <rect x="13" y="13" width="7" height="7" fill="#FFB900"/>
+  
+  <!-- Subtle shadow effect -->
+  <rect x="2" y="2" width="20" height="20" rx="2" ry="2" fill="none" stroke="url(#office-gradient)" stroke-width="0.5" opacity="0.3"/>
+</svg>

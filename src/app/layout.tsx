@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Temesgen Gosaye",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Temesgen Gosaye is a proficient Software Engineer and Full Stack Developer from Ethiopia, skilled in front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
@@ -66,16 +66,15 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
+    "temesgen gosaye",
+    "temesgen",
     "full stack developer",
-    "indian developer",
-    "nixrajput github",
+    "ethiopian developer",
+    "software engineer",
+    "web developer",
+    "mern stack",
+    "react developer",
+    "nodejs developer",
   ],
 };
 
@@ -90,6 +89,7 @@ const FloatingNavbar = dynamic(
   () => import("@/components/navbar/FloatingNavbar")
 );
 const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
+const Footer = dynamic(() => import("@/components/footer/Footer"));
 
 const isDebug = process.env.NODE_ENV === "development";
 
@@ -102,6 +102,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         {isDebug ? <WebVitals /> : null}
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
+        <Footer />
         <ScrollToTop />
       </body>
     </html>

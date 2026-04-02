@@ -3,18 +3,18 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "Web Design",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
+      "/skills/icon-1.svg",
+      "/skills/icon-2.svg",
+      "/skills/icon-3.svg",
+      "/skills/icon-4.svg",
+      "/skills/icon-5.svg",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I create stunning and user-friendly web designs.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "I create captivating web designs from concept to deployment for modern websites. Using cutting-edge design technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results that make your brand stand out.",
   },
   {
     id: 2,

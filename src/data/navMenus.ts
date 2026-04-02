@@ -17,7 +17,7 @@ export const navMenus: INavItem[] = [
   //   icon: faHome,
   // },
   {
-    name: "About",
+    name: "About Me",
     link: "/#about",
     icon: faUser,
   },
@@ -43,7 +43,7 @@ export const navMenus: INavItem[] = [
   },
   {
     name: "Contact",
-    link: "/#contact",
+    link: "/contact",
     icon: faEnvelope,
   },
   {

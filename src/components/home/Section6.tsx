@@ -8,6 +8,8 @@ import socialLinks from "@/data/socialLinks";
 
 const HomeSection6 = ({ id }: { id: string }) => {
   return (
+    // Commented out Get in Touch section
+    /*
     <ResponsiveBox
       classNames="dark:bg-[var(--dialogColor)] bg-[var(--dialogColor)] min-h-screen items-center justify-center dark:bg-dot-white/[0.15] bg-dot-white/[0.15] items-center justify-center"
       id={id}
@@ -37,6 +39,11 @@ const HomeSection6 = ({ id }: { id: string }) => {
         </Column>
       </ConstrainedBox>
     </ResponsiveBox>
+    */
+    // Empty placeholder for commented section
+    <div id={id} className="hidden">
+      {/* Get in Touch section has been commented out */}
+    </div>
   );
 };
 
