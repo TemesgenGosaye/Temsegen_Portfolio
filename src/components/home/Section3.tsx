@@ -26,14 +26,7 @@ const HomeSection3 = ({ id }: Props) => {
   const timelineData = useMemo(
     () =>
       experiences.map((exp, index) => ({
-        title: (
-          <div className="flex items-center gap-3">
-            <div className="w-3 h-3 bg-gradient-to-r from-indigo-400 to-blue-500 rounded-full animate-pulse" />
-            <span className="text-indigo-400 font-mono text-sm">
-              {exp.startDate} — {exp.isCurrentJob ? "Present" : exp.endDate}
-            </span>
-          </div>
-        ),
+        title: `${exp.startDate} — ${exp.isCurrentJob ? "Present" : exp.endDate}`,
         content: (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
